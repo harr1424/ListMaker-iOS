@@ -1,4 +1,4 @@
-# ListMakeriOS
+# List-Maker iOS
 An iOS (15+) app demonstrating the use of a UITableView and a Realm database to persist data locally. 
 
 ## Privacy Policy 
