@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE589E452867B6C10001324C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CE589E442867B6C10001324C /* Realm */; };
+		CE589E472867B6C10001324C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE589E462867B6C10001324C /* RealmSwift */; };
 		CEBC43EB28654F1E00B6BC82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC43EA28654F1E00B6BC82 /* AppDelegate.swift */; };
 		CEBC43ED28654F1E00B6BC82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC43EC28654F1E00B6BC82 /* SceneDelegate.swift */; };
 		CEBC43F228654F1E00B6BC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBC43F028654F1E00B6BC82 /* Main.storyboard */; };
@@ -15,13 +17,11 @@
 		CEDAA31728667A4A003F96F8 /* ParentItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA31628667A4A003F96F8 /* ParentItemViewController.swift */; };
 		CEDAA31928667AFA003F96F8 /* ChildItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA31828667AFA003F96F8 /* ChildItemViewController.swift */; };
 		CEDAA31C28667C0A003F96F8 /* ParentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA31B28667C0A003F96F8 /* ParentItem.swift */; };
-		CEDAA31F28667C3F003F96F8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CEDAA31E28667C3F003F96F8 /* Realm */; };
-		CEDAA32128667C3F003F96F8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEDAA32028667C3F003F96F8 /* RealmSwift */; };
 		CEDAA32328667E30003F96F8 /* ChildItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA32228667E30003F96F8 /* ChildItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEBC43E728654F1E00B6BC82 /* ListMaker(Storyboard).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListMaker(Storyboard).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBC43E728654F1E00B6BC82 /* List-Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "List-Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBC43EA28654F1E00B6BC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBC43EC28654F1E00B6BC82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEBC43F128654F1E00B6BC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,8 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDAA32128667C3F003F96F8 /* RealmSwift in Frameworks */,
-				CEDAA31F28667C3F003F96F8 /* Realm in Frameworks */,
+				CE589E472867B6C10001324C /* RealmSwift in Frameworks */,
+				CE589E452867B6C10001324C /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 		CEBC43DE28654F1E00B6BC82 = {
 			isa = PBXGroup;
 			children = (
-				CEBC43E928654F1E00B6BC82 /* ListMaker(Storyboard) */,
+				CEBC43E928654F1E00B6BC82 /* List-Maker */,
 				CEBC43E828654F1E00B6BC82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		CEBC43E828654F1E00B6BC82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBC43E728654F1E00B6BC82 /* ListMaker(Storyboard).app */,
+				CEBC43E728654F1E00B6BC82 /* List-Maker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBC43E928654F1E00B6BC82 /* ListMaker(Storyboard) */ = {
+		CEBC43E928654F1E00B6BC82 /* List-Maker */ = {
 			isa = PBXGroup;
 			children = (
 				CEDAA31A28667BE7003F96F8 /* Models */,
@@ -74,7 +74,7 @@
 				CEBC43F328654F2000B6BC82 /* Assets.xcassets */,
 				CEBC43F828654F2000B6BC82 /* Info.plist */,
 			);
-			path = "ListMaker(Storyboard)";
+			path = "List-Maker";
 			sourceTree = "<group>";
 		};
 		CEDAA314286678B0003F96F8 /* Views */ = {
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEBC43E628654F1E00B6BC82 /* ListMaker(Storyboard) */ = {
+		CEBC43E628654F1E00B6BC82 /* List-Maker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBC43FB28654F2000B6BC82 /* Build configuration list for PBXNativeTarget "ListMaker(Storyboard)" */;
+			buildConfigurationList = CEBC43FB28654F2000B6BC82 /* Build configuration list for PBXNativeTarget "List-Maker" */;
 			buildPhases = (
 				CEBC43E328654F1E00B6BC82 /* Sources */,
 				CEBC43E428654F1E00B6BC82 /* Frameworks */,
@@ -119,13 +119,13 @@
 			);
 			dependencies = (
 			);
-			name = "ListMaker(Storyboard)";
+			name = "List-Maker";
 			packageProductDependencies = (
-				CEDAA31E28667C3F003F96F8 /* Realm */,
-				CEDAA32028667C3F003F96F8 /* RealmSwift */,
+				CE589E442867B6C10001324C /* Realm */,
+				CE589E462867B6C10001324C /* RealmSwift */,
 			);
 			productName = "ListMaker(Storyboard)";
-			productReference = CEBC43E728654F1E00B6BC82 /* ListMaker(Storyboard).app */;
+			productReference = CEBC43E728654F1E00B6BC82 /* List-Maker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEBC43E228654F1E00B6BC82 /* Build configuration list for PBXProject "ListMaker(Storyboard)" */;
+			buildConfigurationList = CEBC43E228654F1E00B6BC82 /* Build configuration list for PBXProject "List-Maker" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,13 +153,13 @@
 			);
 			mainGroup = CEBC43DE28654F1E00B6BC82;
 			packageReferences = (
-				CEDAA31D28667C3F003F96F8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				CE589E432867B6C10001324C /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = CEBC43E828654F1E00B6BC82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEBC43E628654F1E00B6BC82 /* ListMaker(Storyboard) */,
+				CEBC43E628654F1E00B6BC82 /* List-Maker */,
 			);
 		};
 /* End PBXProject section */
@@ -337,8 +337,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2RH6V6Y4V2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ListMaker(Storyboard)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "List Maker";
+				INFOPLIST_FILE = "List-Maker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "List-Maker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.harr1424.ListMaker-Storyboard-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harr1424.List-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -368,8 +368,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2RH6V6Y4V2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ListMaker(Storyboard)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "List Maker";
+				INFOPLIST_FILE = "List-Maker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "List-Maker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -381,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.harr1424.ListMaker-Storyboard-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harr1424.List-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -392,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEBC43E228654F1E00B6BC82 /* Build configuration list for PBXProject "ListMaker(Storyboard)" */ = {
+		CEBC43E228654F1E00B6BC82 /* Build configuration list for PBXProject "List-Maker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEBC43F928654F2000B6BC82 /* Debug */,
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBC43FB28654F2000B6BC82 /* Build configuration list for PBXNativeTarget "ListMaker(Storyboard)" */ = {
+		CEBC43FB28654F2000B6BC82 /* Build configuration list for PBXNativeTarget "List-Maker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEBC43FC28654F2000B6BC82 /* Debug */,
@@ -413,7 +413,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CEDAA31D28667C3F003F96F8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		CE589E432867B6C10001324C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -424,14 +424,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CEDAA31E28667C3F003F96F8 /* Realm */ = {
+		CE589E442867B6C10001324C /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEDAA31D28667C3F003F96F8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = CE589E432867B6C10001324C /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = Realm;
 		};
-		CEDAA32028667C3F003F96F8 /* RealmSwift */ = {
+		CE589E462867B6C10001324C /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEDAA31D28667C3F003F96F8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = CE589E432867B6C10001324C /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

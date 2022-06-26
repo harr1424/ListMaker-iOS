@@ -93,7 +93,7 @@ class ParentItemViewController: UITableViewController {
         present(addItemAlert, animated: true, completion: nil)
     }
     
-    //MARK: - Database Methods
+    //MARK: - realm Database Methods
     
     func load() {
         parentItems = realm.objects(ParentItem.self)
@@ -149,7 +149,7 @@ class ParentItemViewController: UITableViewController {
                     alertTextField.placeholder = "New name..."
                     newItemInput = alertTextField
                 }
-                let removeItemAlert = UIAlertController(title: "Delete Category", message: "Are you sure you want to delete this category?", preferredStyle: .alert)
+                let removeItemAlert = UIAlertController(title: "Delete Item", message: "Are you sure you want to delete this item??", preferredStyle: .alert)
                 let removeItemAction = UIAlertAction(title: "Delete", style: .destructive) { action in
                     self.delete(indexPath: indexPath)
                 }
